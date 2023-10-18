@@ -1,0 +1,6 @@
+.button {
+    background-color: hsl(271, 76%, 53%, 0.5);
+    color: black;
+    width: 150px;
+    border-radius: 15px;
+}

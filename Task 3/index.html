@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Чат с WebSocket</h1>
+    </header>
+    <main class="main wrapper">
+        <div class="main__chat chat">
+            <form action="#" class="chat__form form">
+                <input type="text" class="form__message" name="text" placeholder="Здесь вводится текст сообщения">
+                <button class="chat__button send-btn">Отправить сообщение</button>
+                <button class="chat__button geo-btn">Гео-локация</button>
+            </form>
+            <div class="chat__field msg">
+                <div class="msg__user"></div>
+                <div class="msg__server"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
